@@ -16,9 +16,9 @@
         class="nav__menu"
         :style="isActive ? 'height: 305px;' : 'height: 0;'"
       >
-        <ul class="nav__links">
+        <ul class="nav__list">
           <li v-for="link in links" :key="link.id">
-            <a href="link.local">{{ link.name }}</a>
+            <a href="link.local" class="nav__links">{{ link.name }}</a>
           </li>
           <li>
             <a href="#contact" class="nav__button">Contact</a>
@@ -97,7 +97,7 @@ export default {
     );
     transition: $transition;
   }
-  &__links {
+  &__list {
     width: 100%;
     list-style-type: none;
     margin: 0;
@@ -105,10 +105,10 @@ export default {
     background-color: $white;
     text-align: center;
   }
-  &__links li {
+  &__list li {
     margin: 2rem 0;
   }
-  &__links a {
+  &__links {
     display: block;
     font: $size $barlow;
     color: $dark-gray-blue;
@@ -116,6 +116,7 @@ export default {
     transition: $transition;
   }
   &__button {
+    display: block;
     width: 140px;
     border-radius: 1.875rem;
     margin: 0 auto;
@@ -126,6 +127,7 @@ export default {
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
+    transition: $transition;
   }
 }
 </style>
