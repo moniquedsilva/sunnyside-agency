@@ -1,7 +1,9 @@
 <template>
   <header class="header">
     <div class="header__nav">
-      <img src="assets/icons/logo.svg" alt="Logo" class="header__logo" />
+      <a href="/#">
+        <img src="assets/icons/logo.svg" alt="Logo" class="header__logo" />
+      </a>
       <button class="header__hamburguer" @click="toggleLinks">
         <img src="assets/icons/icon-hamburger.svg" alt="Hamburger Menu" />
       </button>
@@ -128,6 +130,20 @@ export default {
     text-decoration: none;
     text-align: center;
     transition: $transition;
+  }
+}
+
+@media (min-width: 48em) {
+  .header {
+    flex-direction: row;
+    &__hamburguer {
+      display: none;
+    }
+  }
+  .nav {
+    &__menu {
+      height: auto !important;
+    }
   }
 }
 </style>
