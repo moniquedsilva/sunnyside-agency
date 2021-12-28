@@ -136,6 +136,8 @@ export default {
 @media (min-width: 48em) {
   .header {
     flex-direction: row;
+    justify-content: center;
+    width: 92.36%;
     &__hamburguer {
       display: none;
     }
@@ -144,6 +146,38 @@ export default {
     &__menu {
       height: auto !important;
     }
+    &__triangle {
+      display: none;
+    }
+    &__list {
+      background-color: transparent;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 3.125rem;
+    }
+    &__list li {
+      margin: 0;
+    }
+    &__links {
+      color: $white;
+    }
+    &__links:hover {
+      transform: scale(1.1);
+    }
+    &__button {
+      background-color: $white;
+    }
+    &__button:hover {
+      color: $white;
+      background-color: hsla(200, 100%, 72%, 1);
+    }
+  }
+}
+
+@media (min-width: 120em) {
+  .header {
+    width: 83.125rem;
   }
 }
 </style>
