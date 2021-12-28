@@ -59,6 +59,7 @@ export default {
   position: fixed;
   padding: 1.75rem 0;
   width: 88%;
+  z-index: 10;
   &__nav {
     display: flex;
     justify-content: space-between;
