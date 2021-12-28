@@ -20,7 +20,7 @@
       >
         <ul class="nav__list">
           <li v-for="link in links" :key="link.id">
-            <a href="link.local" class="nav__links">{{ link.name }}</a>
+            <a :href="link.local" class="nav__links">{{ link.name }}</a>
           </li>
           <li>
             <a href="#contact" class="nav__button">Contact</a>
