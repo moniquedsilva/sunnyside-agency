@@ -1,19 +1,24 @@
 <template>
   <div class="container">
     <Header />
-    <Hero />
+    <main>
+      <Hero />
+      <About />
+    </main>
   </div>
 </template>
 
 <script>
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import About from '@/components/About'
 
 export default {
   name: 'App',
   components: {
     Header,
     Hero,
+    About,
   },
 }
 </script>
