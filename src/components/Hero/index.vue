@@ -31,19 +31,19 @@
     color: $white;
   }
   &__arrow {
-    animation: stretch infinite 2s linear 0s;
+    animation: move infinite 1.7s linear 0s;
   }
 }
 
-@keyframes stretch {
+@keyframes move {
   0% {
-    transform: scale(1);
+    transform: translateY(0);
   }
   50% {
-    transform: scale(1.2);
+    transform: translateY(20px);
   }
   100% {
-    transform: scale(1);
+    transform: translateY(0);
   }
 }
 
@@ -56,7 +56,7 @@
       font-size: 2.625rem;
     }
     &__arrow {
-      margin: 0 0 3rem 0;
+      margin: 0 0 3.5rem 0;
     }
   }
 }
@@ -67,7 +67,7 @@
       margin: 0 0 4rem 0;
     }
     &__arrow {
-      margin: 0 0 6rem 0;
+      margin: 0 0 6.5rem 0;
     }
   }
 }
@@ -77,7 +77,7 @@
       margin: 0 0 3rem 0;
     }
     &__arrow {
-      margin: 0 0 10.5rem 0;
+      margin: 0 0 11rem 0;
     }
   }
 }
@@ -89,7 +89,7 @@
       font-size: 2.625rem;
     }
     &__arrow {
-      margin: 0 0 7rem 0;
+      margin: 0 0 7.5rem 0;
     }
   }
 }
