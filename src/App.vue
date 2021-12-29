@@ -4,6 +4,7 @@
     <main>
       <Hero />
       <About />
+      <Services />
     </main>
   </div>
 </template>
@@ -12,6 +13,7 @@
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
+import Services from '@/components/Services'
 
 export default {
   name: 'App',
@@ -19,6 +21,7 @@ export default {
     Header,
     Hero,
     About,
+    Services,
   },
 }
 </script>
