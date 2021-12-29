@@ -56,10 +56,13 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: fixed;
+  position: absolute;
   padding: 1.75rem 0;
   width: 88%;
   z-index: 10;
+  &--scrolled {
+    background-color: hsla(200, 100%, 62%, 0.5);
+  }
   &__nav {
     display: flex;
     justify-content: space-between;
