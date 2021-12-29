@@ -52,7 +52,7 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.625rem;
     width: 70%;
     margin: 3.125rem auto;
     text-align: center;
