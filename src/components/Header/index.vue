@@ -60,9 +60,6 @@ export default {
   padding: 1.75rem 0;
   width: 88%;
   z-index: 10;
-  &--scrolled {
-    background-color: hsla(200, 100%, 62%, 0.5);
-  }
   &__nav {
     display: flex;
     justify-content: space-between;
