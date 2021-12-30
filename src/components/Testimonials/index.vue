@@ -33,7 +33,7 @@ export default {
   justify-content: center;
   &__title {
     font: 0.9375rem $fraunces;
-    color: $dark-gray-blue;
+    color: hsla(0, 0%, 68%, 1);
     text-transform: uppercase;
     letter-spacing: 0.245em;
     margin: 1.5625rem 0 1.5rem 0;
@@ -64,7 +64,7 @@ export default {
   }
   &__span {
     font: 0.75rem $barlow;
-    color: $grayish-blue;
+    color: hsla(0, 0%, 68%, 1);
   }
 }
 
