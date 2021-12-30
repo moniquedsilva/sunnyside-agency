@@ -6,6 +6,7 @@
       <About />
       <Services />
       <Testimonials />
+      <Gallery />
     </main>
   </div>
 </template>
@@ -16,6 +17,7 @@ import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Services from '@/components/Services'
 import Testimonials from '@/components/Testimonials'
+import Gallery from '@/components/Gallery'
 
 export default {
   name: 'App',
@@ -25,6 +27,7 @@ export default {
     About,
     Services,
     Testimonials,
+    Gallery,
   },
 }
 </script>
