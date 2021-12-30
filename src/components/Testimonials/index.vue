@@ -6,7 +6,7 @@
         <img :src="item.img" :alt="item.name" class="testimonials__img" />
         <p class="testimonials__paragraph">{{ item.text }}</p>
         <h4 class="testimonials__name">{{ item.name }}</h4>
-        <span class="testimonials__profession">{{ item.profession }}</span>
+        <span class="testimonials__span">{{ item.profession }}</span>
       </article>
     </div>
   </section>
@@ -30,6 +30,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   &__title {
     font: 0.9375rem $fraunces;
     color: $dark-gray-blue;
@@ -61,7 +62,7 @@ export default {
     font: 1.125rem $fraunces;
     color: $dark-desaturated-blue;
   }
-  &__profession {
+  &__span {
     font: 0.75rem $barlow;
     color: $grayish-blue;
   }
@@ -69,18 +70,53 @@ export default {
 
 @media (min-width: 48em) {
   .testimonials {
-    padding: 4.9rem 0;
     &__title {
       font: 1.5rem $fraunces;
       letter-spacing: 0.23em;
       margin: 4.9rem 0 2.375rem 0;
     }
     &__clients {
-      flex-direction: row;
-      gap: 2rem;
-      width: 76%;
-      margin: 2.375rem 0 4.9rem 0;
+      align-items: center;
+      width: 80%;
       text-align: center;
+    }
+    &__paragraph {
+      width: 345px;
+      height: 92px;
+      margin: 2rem 0;
+      font: 1.125rem $barlow;
+      line-height: 30.33px;
+      color: $dark-desaturated-blue;
+    }
+    &__name {
+      font: 1.375rem $fraunces;
+    }
+    &__span {
+      font: 0.875rem $barlow;
+    }
+  }
+}
+
+@media (min-width: 64em) {
+  .testimonials {
+    padding: 4.9rem 0;
+    &__clients {
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 2.5rem;
+      margin: 2.375rem 0 4.9rem 0;
+    }
+  }
+}
+
+@media (min-width: 75em) {
+  .testimonials {
+    &__clients {
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 2rem;
     }
   }
 }
