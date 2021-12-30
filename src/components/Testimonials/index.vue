@@ -5,8 +5,8 @@
       <article v-for="item in info" :key="item.id">
         <img :src="item.img" :alt="item.name" class="testimonials__img" />
         <p class="testimonials__paragraph">{{ item.text }}</p>
-        <h4>{{ item.name }}</h4>
-        <span>{{ item.profession }}</span>
+        <h4 class="testimonials__name">{{ item.name }}</h4>
+        <span class="testimonials__profession">{{ item.profession }}</span>
       </article>
     </div>
   </section>
@@ -55,6 +55,15 @@ export default {
     font: 0.875rem $barlow;
     line-height: 24.71px;
     color: $dark-desaturated-blue;
+  }
+  &__name {
+    margin: 0 0 1rem 0;
+    font: 1.125rem $fraunces;
+    color: $dark-desaturated-blue;
+  }
+  &__profession {
+    font: 0.75rem $barlow;
+    color: $grayish-blue;
   }
 }
 
