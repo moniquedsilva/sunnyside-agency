@@ -7,6 +7,7 @@
       <Services />
       <Testimonials />
       <Gallery />
+      <Footer />
     </main>
   </div>
 </template>
@@ -18,6 +19,7 @@ import About from '@/components/About'
 import Services from '@/components/Services'
 import Testimonials from '@/components/Testimonials'
 import Gallery from '@/components/Gallery'
+import Footer from '@/components/Footer'
 
 export default {
   name: 'App',
@@ -28,6 +30,7 @@ export default {
     Services,
     Testimonials,
     Gallery,
+    Footer,
   },
 }
 </script>
