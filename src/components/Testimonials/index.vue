@@ -13,15 +13,15 @@
 </template>
 
 <script>
-import { information } from './information'
+import { information } from './information';
 
 export default {
   data() {
     return {
       info: information,
-    }
+    };
   },
-}
+};
 </script>
 
 <style lang="scss">
@@ -55,7 +55,7 @@ export default {
     margin: 25px 0;
     font: 0.875rem $barlow;
     line-height: 24.71px;
-    color: $dark-desaturated-blue;
+    color: hsla(218, 3%, 45%, 1);
   }
   &__name {
     margin: 0 0 1rem 0;
@@ -86,7 +86,6 @@ export default {
       margin: 2rem 0;
       font: 1.125rem $barlow;
       line-height: 30.33px;
-      color: $dark-desaturated-blue;
     }
     &__name {
       font: 1.375rem $fraunces;
