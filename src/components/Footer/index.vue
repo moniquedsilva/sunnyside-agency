@@ -143,6 +143,15 @@
   }
 }
 
+.attribution {
+  width: 80%;
+  text-align: center;
+  font: 1rem $barlow;
+  a {
+    text-decoration: underline;
+  }
+}
+
 @media (min-width: 48em){
   .footer {
     padding: 2.1875rem 0;
