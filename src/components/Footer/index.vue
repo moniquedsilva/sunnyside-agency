@@ -143,25 +143,21 @@
   }
 }
 
-.attribution {
-  margin-bottom: 1.5625rem;
-}
-
 @media (min-width: 48em){
   .footer {
     padding: 2.1875rem 0;
-    a {
+    gap: 2rem;
+    &__logo{
       margin-top: 2.1875rem;
     }
     &__link{
-      width: 14.57rem;
+      width: 18.625rem;
+      font: 1.125rem $barlow;
     }
     &__social{
       width: 10.125rem;
+      margin: 3.125rem;
     }
-  }
-  .attribution {
-    margin-bottom: 2.1875rem;
   }
 }
 </style>
