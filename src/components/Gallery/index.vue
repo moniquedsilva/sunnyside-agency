@@ -1,5 +1,5 @@
 <template>
-  <div class="gallery">
+  <div class="gallery" id="projects">
     <div role="image" class="gallery__milkbottles"></div>
     <div role="image" class="gallery__orange"></div>
     <div role="image" class="gallery__cone"></div>
