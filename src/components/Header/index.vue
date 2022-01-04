@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="header__nav">
-      <a href="/#">
+      <a href="/#home">
         <img src="assets/icons/logo.svg" alt="Logo" class="header__logo" />
       </a>
       <button class="header__hamburguer" @click="toggleLinks">

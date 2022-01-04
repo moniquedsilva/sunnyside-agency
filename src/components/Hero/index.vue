@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section id="home" class="hero">
     <h1 class="hero__title">We are creatives</h1>
     <a href="/#about">
       <img
