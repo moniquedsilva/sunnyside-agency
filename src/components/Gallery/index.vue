@@ -1,9 +1,9 @@
 <template>
   <div class="gallery" id="projects">
-    <div aria-label="Milkbottles" class="gallery__milkbottles"></div>
-    <div aria-label="Orage" class="gallery__orange"></div>
-    <div aria-label="Cone" class="gallery__cone"></div>
-    <div aria-label="Ice Cubes" class="gallery__cubes"></div>
+    <div class="gallery__milkbottles"></div>
+    <div class="gallery__orange"></div>
+    <div class="gallery__cone"></div>
+    <div class="gallery__cubes"></div>
   </div>
 </template>
 

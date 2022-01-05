@@ -10,7 +10,6 @@
     </div>
     <nav class="nav">
       <div
-        role="image"
         class="nav__triangle"
         :style="isActive ? 'height: 23px;' : 'height: 0;'"
       ></div>

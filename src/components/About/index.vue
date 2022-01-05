@@ -20,8 +20,8 @@
         <span>Learn More</span></a
       >
     </section>
-    <div aria-label="Background Eggs" class="about__bgRight"></div>
-    <div aria-label="Background Cup" class="about__bgLeft"></div>
+    <div class="about__bgRight"></div>
+    <div class="about__bgLeft"></div>
   </div>
 </template>
 
